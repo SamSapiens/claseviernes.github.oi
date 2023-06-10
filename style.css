@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-image: url("images/fondo1.jpg"); 
+    background-image: url("images/Anime.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,16 +21,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 90%;
     margin: 1.25rem auto;
 }
 
 .cuadro{
     width: 70%;
-    border: 4px dotted red;
+    border: 4px dotted rgba(231, 113, 241, 0.945);
     border-radius: 30rem;
-    background-color: aquamarine;
+    background-color: rgba(60, 247, 247, 0.411);
     text-align: center;
+    
 }
 
 
@@ -38,7 +39,7 @@ body{
     display: block;
     width: 70%;
     height: calc(100vw*30/100);
-    border: 1px solid red;
+    border: 1px solid rgb(209, 232, 235);
     margin: 1.25rem auto;
 }
 
@@ -47,7 +48,7 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: blue;
+    background-color: rgba(148, 245, 245, 0.301);
     padding: 1rem;
     text-align: center;
     margin-top: auto;
@@ -73,6 +74,11 @@ footer{
 
 .buttons a:hover{
     transform: scale(1.5); 
-    background-color: rgba(189, 18, 103, 0.7);
+    background-color: rgba(221, 75, 148, 0.7);
+}
+
+p{
+    text-align: center;
+    color: antiquewhite;
 }
 
